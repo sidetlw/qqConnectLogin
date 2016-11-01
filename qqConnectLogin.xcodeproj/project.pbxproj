@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		961A4BC51DB87A47003832CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 961A4BC41DB87A47003832CF /* main.m */; };
+		961A4BC81DB87A47003832CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 961A4BC71DB87A47003832CF /* AppDelegate.m */; };
+		961A4BCB1DB87A47003832CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961A4BCA1DB87A47003832CF /* ViewController.m */; };
+		961A4BCE1DB87A47003832CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961A4BCC1DB87A47003832CF /* Main.storyboard */; };
+		961A4BD01DB87A47003832CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961A4BCF1DB87A47003832CF /* Assets.xcassets */; };
+		961A4BD31DB87A47003832CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961A4BD11DB87A47003832CF /* LaunchScreen.storyboard */; };
+		961A4BDE1DB87BEE003832CF /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961A4BDC1DB87BEE003832CF /* TencentOpenAPI.framework */; };
+		961A4BE11DB87C61003832CF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961A4BE01DB87C61003832CF /* Security.framework */; };
+		961A4BE31DB87C7A003832CF /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 961A4BE21DB87C7A003832CF /* libiconv.tbd */; };
+		961A4BE51DB87C88003832CF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961A4BE41DB87C88003832CF /* SystemConfiguration.framework */; };
+		961A4BE71DB87C93003832CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961A4BE61DB87C93003832CF /* CoreGraphics.framework */; };
+		961A4BE91DB87CA0003832CF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 961A4BE81DB87CA0003832CF /* libsqlite3.tbd */; };
+		961A4BEB1DB87CA9003832CF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961A4BEA1DB87CA9003832CF /* CoreTelephony.framework */; };
+		961A4BED1DB87CB5003832CF /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 961A4BEC1DB87CB5003832CF /* libstdc++.tbd */; };
+		961A4BEF1DB87CC1003832CF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 961A4BEE1DB87CC1003832CF /* libz.tbd */; };
+		961A4BF11DB8A344003832CF /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 961A4BF01DB8A344003832CF /* TencentOpenApi_IOS_Bundle.bundle */; };
+		965F20631DBDE683001836A5 /* descViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 965F20621DBDE683001836A5 /* descViewController.m */; };
+		96C164A31DB8CCEA0055B9C4 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C164831DB8CCEA0055B9C4 /* MKAnnotationView+WebCache.m */; };
+		96C164A41DB8CCEA0055B9C4 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C164851DB8CCEA0055B9C4 /* NSData+ImageContentType.m */; };
+		96C164A51DB8CCEA0055B9C4 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C164871DB8CCEA0055B9C4 /* SDImageCache.m */; };
+		96C164A61DB8CCEA0055B9C4 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C164891DB8CCEA0055B9C4 /* SDWebImageCompat.m */; };
+		96C164A71DB8CCEA0055B9C4 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C1648B1DB8CCEA0055B9C4 /* SDWebImageDecoder.m */; };
+		96C164A81DB8CCEA0055B9C4 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C1648D1DB8CCEA0055B9C4 /* SDWebImageDownloader.m */; };
+		96C164A91DB8CCEA0055B9C4 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C1648F1DB8CCEA0055B9C4 /* SDWebImageDownloaderOperation.m */; };
+		96C164AA1DB8CCEA0055B9C4 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C164911DB8CCEA0055B9C4 /* SDWebImageManager.m */; };
+		96C164AB1DB8CCEA0055B9C4 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C164941DB8CCEA0055B9C4 /* SDWebImagePrefetcher.m */; };
+		96C164AC1DB8CCEA0055B9C4 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C164961DB8CCEA0055B9C4 /* UIButton+WebCache.m */; };
+		96C164AD1DB8CCEA0055B9C4 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C164981DB8CCEA0055B9C4 /* UIImage+GIF.m */; };
+		96C164AE1DB8CCEA0055B9C4 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C1649A1DB8CCEA0055B9C4 /* UIImage+MultiFormat.m */; };
+		96C164AF1DB8CCEA0055B9C4 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C1649C1DB8CCEA0055B9C4 /* UIImage+WebP.m */; };
+		96C164B01DB8CCEA0055B9C4 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C1649E1DB8CCEA0055B9C4 /* UIImageView+HighlightedWebCache.m */; };
+		96C164B11DB8CCEA0055B9C4 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C164A01DB8CCEA0055B9C4 /* UIImageView+WebCache.m */; };
+		96C164B21DB8CCEA0055B9C4 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C164A21DB8CCEA0055B9C4 /* UIView+WebCacheOperation.m */; };
+		F9DF011D3EC4894DE6E9418A /* libPods-qqConnectLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 281D7FBDA206AD5E275DE785 /* libPods-qqConnectLogin.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13417246BDEB800369221224 /* Pods-qqConnectLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qqConnectLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qqConnectLogin/Pods-qqConnectLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		281D7FBDA206AD5E275DE785 /* libPods-qqConnectLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qqConnectLogin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		961A4BC01DB87A47003832CF /* qqConnectLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qqConnectLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		961A4BC41DB87A47003832CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		961A4BC61DB87A47003832CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		961A4BC71DB87A47003832CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		961A4BC91DB87A47003832CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		961A4BCA1DB87A47003832CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		961A4BCD1DB87A47003832CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		961A4BCF1DB87A47003832CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		961A4BD21DB87A47003832CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		961A4BD41DB87A47003832CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961A4BDC1DB87BEE003832CF /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		961A4BE01DB87C61003832CF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		961A4BE21DB87C7A003832CF /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		961A4BE41DB87C88003832CF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		961A4BE61DB87C93003832CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		961A4BE81DB87CA0003832CF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		961A4BEA1DB87CA9003832CF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		961A4BEC1DB87CB5003832CF /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		961A4BEE1DB87CC1003832CF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		961A4BF01DB8A344003832CF /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		965F20611DBDE683001836A5 /* descViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = descViewController.h; sourceTree = "<group>"; };
+		965F20621DBDE683001836A5 /* descViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = descViewController.m; sourceTree = "<group>"; };
+		96C164821DB8CCEA0055B9C4 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MKAnnotationView+WebCache.h"; path = "qqConnectLogin/SDWebImage/MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		96C164831DB8CCEA0055B9C4 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MKAnnotationView+WebCache.m"; path = "qqConnectLogin/SDWebImage/MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		96C164841DB8CCEA0055B9C4 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "qqConnectLogin/SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		96C164851DB8CCEA0055B9C4 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "qqConnectLogin/SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		96C164861DB8CCEA0055B9C4 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = qqConnectLogin/SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		96C164871DB8CCEA0055B9C4 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = qqConnectLogin/SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		96C164881DB8CCEA0055B9C4 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = qqConnectLogin/SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		96C164891DB8CCEA0055B9C4 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = qqConnectLogin/SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		96C1648A1DB8CCEA0055B9C4 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = qqConnectLogin/SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		96C1648B1DB8CCEA0055B9C4 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = qqConnectLogin/SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		96C1648C1DB8CCEA0055B9C4 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = qqConnectLogin/SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		96C1648D1DB8CCEA0055B9C4 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = qqConnectLogin/SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		96C1648E1DB8CCEA0055B9C4 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = qqConnectLogin/SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		96C1648F1DB8CCEA0055B9C4 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = qqConnectLogin/SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		96C164901DB8CCEA0055B9C4 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = qqConnectLogin/SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		96C164911DB8CCEA0055B9C4 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = qqConnectLogin/SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		96C164921DB8CCEA0055B9C4 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = qqConnectLogin/SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		96C164931DB8CCEA0055B9C4 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = qqConnectLogin/SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		96C164941DB8CCEA0055B9C4 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = qqConnectLogin/SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		96C164951DB8CCEA0055B9C4 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "qqConnectLogin/SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		96C164961DB8CCEA0055B9C4 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "qqConnectLogin/SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		96C164971DB8CCEA0055B9C4 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "qqConnectLogin/SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		96C164981DB8CCEA0055B9C4 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "qqConnectLogin/SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		96C164991DB8CCEA0055B9C4 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "qqConnectLogin/SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		96C1649A1DB8CCEA0055B9C4 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "qqConnectLogin/SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		96C1649B1DB8CCEA0055B9C4 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+WebP.h"; path = "qqConnectLogin/SDWebImage/UIImage+WebP.h"; sourceTree = "<group>"; };
+		96C1649C1DB8CCEA0055B9C4 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+WebP.m"; path = "qqConnectLogin/SDWebImage/UIImage+WebP.m"; sourceTree = "<group>"; };
+		96C1649D1DB8CCEA0055B9C4 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "qqConnectLogin/SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		96C1649E1DB8CCEA0055B9C4 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "qqConnectLogin/SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		96C1649F1DB8CCEA0055B9C4 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "qqConnectLogin/SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		96C164A01DB8CCEA0055B9C4 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "qqConnectLogin/SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		96C164A11DB8CCEA0055B9C4 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "qqConnectLogin/SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		96C164A21DB8CCEA0055B9C4 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "qqConnectLogin/SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		996DB29BB34F154E34F50C69 /* Pods-qqConnectLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qqConnectLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-qqConnectLogin/Pods-qqConnectLogin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		961A4BBD1DB87A47003832CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961A4BEF1DB87CC1003832CF /* libz.tbd in Frameworks */,
+				961A4BED1DB87CB5003832CF /* libstdc++.tbd in Frameworks */,
+				961A4BEB1DB87CA9003832CF /* CoreTelephony.framework in Frameworks */,
+				961A4BE91DB87CA0003832CF /* libsqlite3.tbd in Frameworks */,
+				961A4BE71DB87C93003832CF /* CoreGraphics.framework in Frameworks */,
+				961A4BE51DB87C88003832CF /* SystemConfiguration.framework in Frameworks */,
+				961A4BE31DB87C7A003832CF /* libiconv.tbd in Frameworks */,
+				961A4BE11DB87C61003832CF /* Security.framework in Frameworks */,
+				961A4BDE1DB87BEE003832CF /* TencentOpenAPI.framework in Frameworks */,
+				F9DF011D3EC4894DE6E9418A /* libPods-qqConnectLogin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		961A4BB71DB87A47003832CF = {
+			isa = PBXGroup;
+			children = (
+				96C164811DB8CCCC0055B9C4 /* SDWebImage */,
+				961A4BDA1DB87BA6003832CF /* frameworks */,
+				961A4BC21DB87A47003832CF /* qqConnectLogin */,
+				961A4BC11DB87A47003832CF /* Products */,
+				961A4BDF1DB87C60003832CF /* Frameworks */,
+				ECB609FC42B120A0EBD00823 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		961A4BC11DB87A47003832CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				961A4BC01DB87A47003832CF /* qqConnectLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		961A4BC21DB87A47003832CF /* qqConnectLogin */ = {
+			isa = PBXGroup;
+			children = (
+				961A4BC61DB87A47003832CF /* AppDelegate.h */,
+				961A4BC71DB87A47003832CF /* AppDelegate.m */,
+				961A4BC91DB87A47003832CF /* ViewController.h */,
+				961A4BCA1DB87A47003832CF /* ViewController.m */,
+				961A4BCC1DB87A47003832CF /* Main.storyboard */,
+				961A4BCF1DB87A47003832CF /* Assets.xcassets */,
+				961A4BD11DB87A47003832CF /* LaunchScreen.storyboard */,
+				961A4BD41DB87A47003832CF /* Info.plist */,
+				961A4BC31DB87A47003832CF /* Supporting Files */,
+				965F20611DBDE683001836A5 /* descViewController.h */,
+				965F20621DBDE683001836A5 /* descViewController.m */,
+			);
+			path = qqConnectLogin;
+			sourceTree = "<group>";
+		};
+		961A4BC31DB87A47003832CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				961A4BC41DB87A47003832CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		961A4BDA1DB87BA6003832CF /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				961A4BF01DB8A344003832CF /* TencentOpenApi_IOS_Bundle.bundle */,
+				961A4BDC1DB87BEE003832CF /* TencentOpenAPI.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		961A4BDF1DB87C60003832CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				961A4BEE1DB87CC1003832CF /* libz.tbd */,
+				961A4BEC1DB87CB5003832CF /* libstdc++.tbd */,
+				961A4BEA1DB87CA9003832CF /* CoreTelephony.framework */,
+				961A4BE81DB87CA0003832CF /* libsqlite3.tbd */,
+				961A4BE61DB87C93003832CF /* CoreGraphics.framework */,
+				961A4BE41DB87C88003832CF /* SystemConfiguration.framework */,
+				961A4BE21DB87C7A003832CF /* libiconv.tbd */,
+				961A4BE01DB87C61003832CF /* Security.framework */,
+				281D7FBDA206AD5E275DE785 /* libPods-qqConnectLogin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96C164811DB8CCCC0055B9C4 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				96C164821DB8CCEA0055B9C4 /* MKAnnotationView+WebCache.h */,
+				96C164831DB8CCEA0055B9C4 /* MKAnnotationView+WebCache.m */,
+				96C164841DB8CCEA0055B9C4 /* NSData+ImageContentType.h */,
+				96C164851DB8CCEA0055B9C4 /* NSData+ImageContentType.m */,
+				96C164861DB8CCEA0055B9C4 /* SDImageCache.h */,
+				96C164871DB8CCEA0055B9C4 /* SDImageCache.m */,
+				96C164881DB8CCEA0055B9C4 /* SDWebImageCompat.h */,
+				96C164891DB8CCEA0055B9C4 /* SDWebImageCompat.m */,
+				96C1648A1DB8CCEA0055B9C4 /* SDWebImageDecoder.h */,
+				96C1648B1DB8CCEA0055B9C4 /* SDWebImageDecoder.m */,
+				96C1648C1DB8CCEA0055B9C4 /* SDWebImageDownloader.h */,
+				96C1648D1DB8CCEA0055B9C4 /* SDWebImageDownloader.m */,
+				96C1648E1DB8CCEA0055B9C4 /* SDWebImageDownloaderOperation.h */,
+				96C1648F1DB8CCEA0055B9C4 /* SDWebImageDownloaderOperation.m */,
+				96C164901DB8CCEA0055B9C4 /* SDWebImageManager.h */,
+				96C164911DB8CCEA0055B9C4 /* SDWebImageManager.m */,
+				96C164921DB8CCEA0055B9C4 /* SDWebImageOperation.h */,
+				96C164931DB8CCEA0055B9C4 /* SDWebImagePrefetcher.h */,
+				96C164941DB8CCEA0055B9C4 /* SDWebImagePrefetcher.m */,
+				96C164951DB8CCEA0055B9C4 /* UIButton+WebCache.h */,
+				96C164961DB8CCEA0055B9C4 /* UIButton+WebCache.m */,
+				96C164971DB8CCEA0055B9C4 /* UIImage+GIF.h */,
+				96C164981DB8CCEA0055B9C4 /* UIImage+GIF.m */,
+				96C164991DB8CCEA0055B9C4 /* UIImage+MultiFormat.h */,
+				96C1649A1DB8CCEA0055B9C4 /* UIImage+MultiFormat.m */,
+				96C1649B1DB8CCEA0055B9C4 /* UIImage+WebP.h */,
+				96C1649C1DB8CCEA0055B9C4 /* UIImage+WebP.m */,
+				96C1649D1DB8CCEA0055B9C4 /* UIImageView+HighlightedWebCache.h */,
+				96C1649E1DB8CCEA0055B9C4 /* UIImageView+HighlightedWebCache.m */,
+				96C1649F1DB8CCEA0055B9C4 /* UIImageView+WebCache.h */,
+				96C164A01DB8CCEA0055B9C4 /* UIImageView+WebCache.m */,
+				96C164A11DB8CCEA0055B9C4 /* UIView+WebCacheOperation.h */,
+				96C164A21DB8CCEA0055B9C4 /* UIView+WebCacheOperation.m */,
+			);
+			name = SDWebImage;
+			sourceTree = "<group>";
+		};
+		ECB609FC42B120A0EBD00823 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13417246BDEB800369221224 /* Pods-qqConnectLogin.debug.xcconfig */,
+				996DB29BB34F154E34F50C69 /* Pods-qqConnectLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		961A4BBF1DB87A47003832CF /* qqConnectLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961A4BD71DB87A47003832CF /* Build configuration list for PBXNativeTarget "qqConnectLogin" */;
+			buildPhases = (
+				7F81016F7070DAAB632A345D /* [CP] Check Pods Manifest.lock */,
+				961A4BBC1DB87A47003832CF /* Sources */,
+				961A4BBD1DB87A47003832CF /* Frameworks */,
+				961A4BBE1DB87A47003832CF /* Resources */,
+				D4198D7D46018A2B86E00829 /* [CP] Embed Pods Frameworks */,
+				59B06F6F6E7C794E7BD37B45 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qqConnectLogin;
+			productName = qqConnectLogin;
+			productReference = 961A4BC01DB87A47003832CF /* qqConnectLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		961A4BB81DB87A47003832CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Longwei;
+				TargetAttributes = {
+					961A4BBF1DB87A47003832CF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 961A4BBB1DB87A47003832CF /* Build configuration list for PBXProject "qqConnectLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 961A4BB71DB87A47003832CF;
+			productRefGroup = 961A4BC11DB87A47003832CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				961A4BBF1DB87A47003832CF /* qqConnectLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		961A4BBE1DB87A47003832CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961A4BF11DB8A344003832CF /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				961A4BD31DB87A47003832CF /* LaunchScreen.storyboard in Resources */,
+				961A4BD01DB87A47003832CF /* Assets.xcassets in Resources */,
+				961A4BCE1DB87A47003832CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59B06F6F6E7C794E7BD37B45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-qqConnectLogin/Pods-qqConnectLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F81016F7070DAAB632A345D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4198D7D46018A2B86E00829 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-qqConnectLogin/Pods-qqConnectLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		961A4BBC1DB87A47003832CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C164B01DB8CCEA0055B9C4 /* UIImageView+HighlightedWebCache.m in Sources */,
+				96C164A41DB8CCEA0055B9C4 /* NSData+ImageContentType.m in Sources */,
+				96C164AA1DB8CCEA0055B9C4 /* SDWebImageManager.m in Sources */,
+				96C164A81DB8CCEA0055B9C4 /* SDWebImageDownloader.m in Sources */,
+				96C164AF1DB8CCEA0055B9C4 /* UIImage+WebP.m in Sources */,
+				965F20631DBDE683001836A5 /* descViewController.m in Sources */,
+				96C164B21DB8CCEA0055B9C4 /* UIView+WebCacheOperation.m in Sources */,
+				96C164A51DB8CCEA0055B9C4 /* SDImageCache.m in Sources */,
+				961A4BCB1DB87A47003832CF /* ViewController.m in Sources */,
+				96C164A31DB8CCEA0055B9C4 /* MKAnnotationView+WebCache.m in Sources */,
+				96C164A71DB8CCEA0055B9C4 /* SDWebImageDecoder.m in Sources */,
+				96C164AE1DB8CCEA0055B9C4 /* UIImage+MultiFormat.m in Sources */,
+				96C164A91DB8CCEA0055B9C4 /* SDWebImageDownloaderOperation.m in Sources */,
+				961A4BC81DB87A47003832CF /* AppDelegate.m in Sources */,
+				96C164AC1DB8CCEA0055B9C4 /* UIButton+WebCache.m in Sources */,
+				96C164AB1DB8CCEA0055B9C4 /* SDWebImagePrefetcher.m in Sources */,
+				96C164B11DB8CCEA0055B9C4 /* UIImageView+WebCache.m in Sources */,
+				96C164A61DB8CCEA0055B9C4 /* SDWebImageCompat.m in Sources */,
+				96C164AD1DB8CCEA0055B9C4 /* UIImage+GIF.m in Sources */,
+				961A4BC51DB87A47003832CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		961A4BCC1DB87A47003832CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				961A4BCD1DB87A47003832CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		961A4BD11DB87A47003832CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				961A4BD21DB87A47003832CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		961A4BD51DB87A47003832CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		961A4BD61DB87A47003832CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		961A4BD81DB87A47003832CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13417246BDEB800369221224 /* Pods-qqConnectLogin.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+				);
+				INFOPLIST_FILE = qqConnectLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					$inherited,
+					"-ObjC",
+					"-l\"AFNetworking\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dji.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		961A4BD91DB87A47003832CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996DB29BB34F154E34F50C69 /* Pods-qqConnectLogin.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+				);
+				INFOPLIST_FILE = qqConnectLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					$inherited,
+					"-ObjC",
+					"-l\"AFNetworking\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dji.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		961A4BBB1DB87A47003832CF /* Build configuration list for PBXProject "qqConnectLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961A4BD51DB87A47003832CF /* Debug */,
+				961A4BD61DB87A47003832CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		961A4BD71DB87A47003832CF /* Build configuration list for PBXNativeTarget "qqConnectLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961A4BD81DB87A47003832CF /* Debug */,
+				961A4BD91DB87A47003832CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 961A4BB81DB87A47003832CF /* Project object */;
+}
